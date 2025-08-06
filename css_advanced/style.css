@@ -1,3 +1,64 @@
+/* ...existing code... */
+
+/* Centralized Card/Avatar Styles */
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+    margin-bottom: 16px;
+}
+
+/* Quote/Testimonial Section Styling */
+main > section:nth-of-type(2) {
+    background: #a97fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    padding: 48px 0;
+    color: #fff;
+}
+main > section:nth-of-type(2) > div {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+main > section:nth-of-type(2) img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+    margin-right: 32px;
+}
+main > section:nth-of-type(2) blockquote {
+    font-size: 22px;
+    font-style: italic;
+    background: rgba(255,255,255,0.08);
+    border-left: 6px solid #ff4f9d;
+    padding: 24px 32px 24px 24px;
+    border-radius: 16px;
+    margin-bottom: 16px;
+    color: #fff;
+    box-shadow: 0 4px 24px rgba(71, 41, 158, 0.08);
+    max-width: 480px;
+}
+main > section:nth-of-type(2) h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 4px;
+    margin-top: 8px;
+    color: #fff;
+}
+main > section:nth-of-type(2) p {
+    font-size: 16px;
+    opacity: 0.8;
+    color: #fff;
+    margin-bottom: 0;
+}
+
 /* Reset and base styles */
 * {
     box-sizing: border-box;
