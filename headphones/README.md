@@ -2,11 +2,12 @@
 
 ## Project Overview
 
-This project contains text files as its primary content. The workspace structure is as follows:
+This project will use skills gained in the previous to create a responsive webpage using CSS and HTML
 
 ```
-<root>
-├── <list of text files>
+alx_html_css
+├── css_advanced
+├── headphones
 ```
 
 ## Getting Started
